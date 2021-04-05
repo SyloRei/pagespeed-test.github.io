@@ -453,8 +453,11 @@
         script.onerror = reject;
       });
     }
-    loadScript('https://d34ikvsdm2rlij.cloudfront.net/vuega/static/2021/2021-15254-g860cbe534b4/website/js/chunk-vendors.js');
-    loadScript('https://d34ikvsdm2rlij.cloudfront.net/vuega/static/2021/2021-15254-g860cbe534b4/website/js/instantsite.js');
+    window.onload = function() {
+      loadScript('https://d34ikvsdm2rlij.cloudfront.net/vuega/static/2021/2021-15254-g860cbe534b4/website/js/chunk-vendors.js')
+      loadScript('https://d34ikvsdm2rlij.cloudfront.net/vuega/static/2021/2021-15254-g860cbe534b4/website/js/instantsite.js');
+    }
   </script>
+
 	</body>
 </html>
