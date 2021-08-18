@@ -415,6 +415,146 @@
 		</script>
 		<script type="text/javascript" src="https://vuega.ecwid.com/static/2021/2021-32595-g4c1e324a042/website/js/chunk-vendors.js" defer></script>
 		<script type="text/javascript" src="https://vuega.ecwid.com/static/2021/2021-32595-g4c1e324a042/website/js/instantsite.js" defer></script>
+
+        <script type="module">
+            // See https://github.com/GoogleChrome/web-vitals for more info on using Web Vitals
+            import { getTTFB, getFCP, getCLS, getLCP } from "https://unpkg.com/web-vitals?module";
+          
+            let storedPerfMarks = JSON.parse(localStorage.getItem("perfMarks"));
+            let perfMarks = performance.getEntriesByType("mark");
+            let perfMarksLength = perfMarks.length;
+            let storedVitals = JSON.parse(localStorage.getItem("storedVitals"));
+            let ALL_PERF_METRICS = [];
+          
+            function createEntry(key, val) {
+              var entry = {
+                metric: key,
+                value: val,
+              };
+              return entry;
+            }
+          
+            function writeValue({ name, value }) {
+              if (storedVitals == null) storedVitals = [];
+              var entry = {
+                metric: name,
+                value: value,
+              };
+              storedVitals.push(entry);
+              localStorage.setItem("storedVitals", JSON.stringify(storedVitals));
+            }
+          
+            function median(array) {
+              if (array.length === 0) return `Error: Unable to calculate median.`;
+              array.sort(function (a, b) {
+                return a - b;
+              });
+              var mid = array.length / 2;
+              return mid % 1 ? array[mid - 0.5] : (array[mid - 1] + array[mid]) / 2;
+            }
+          
+            function storeMetrics() {
+              if (storedPerfMarks == null) storedPerfMarks = [];
+              let tempEntry = [];
+              for (var i = 0; i < perfMarksLength; i++) {
+                tempEntry.push(createEntry(perfMarks[i].name, perfMarks[i].startTime));
+              }
+              storedPerfMarks.push(tempEntry);
+              localStorage.setItem("perfMarks", JSON.stringify(storedPerfMarks));
+            }
+          
+            function storeVitals() {
+              getTTFB(writeValue);
+              getFCP(writeValue);
+              getCLS(writeValue);
+              getLCP(writeValue);
+            }
+          
+            // Reduce the 'storedVitals' object
+            function groupBy(objectArray, property) {
+              return objectArray.reduce(function (acc, obj) {
+                let key = obj[property];
+                if (!acc[key]) {
+                  acc[key] = [];
+                }
+                acc[key].push(obj);
+                return acc;
+              }, {});
+            }
+          
+            // Reload the page
+            function reload(time) {
+              setTimeout(function (time) {
+                location.reload(true);
+              }, time);
+            }
+          
+            function calculateMedianPerfMarks() {
+              // Create arrays of specific perf marks and get their medians
+              for (var i = 0; i < perfMarksLength; i++) {
+                let tempArr = [];
+                let metric;
+                Object.keys(storedPerfMarks).forEach((obj) => {
+                  metric = storedPerfMarks[obj][i].metric;
+                  tempArr.push(storedPerfMarks[obj][i].value);
+                });
+                let medianValue = median(tempArr);
+                ALL_PERF_METRICS.push({ metric, medianValue });
+              }
+            }
+          
+            function calculateMedianVitals() {
+              let groupedstoredVitals = groupBy(storedVitals, "metric");
+              Object.values(groupedstoredVitals).forEach((obj) => {
+                let tempArr = [];
+                let metric;
+                obj.forEach((i) => {
+                  metric = i.metric;
+                  tempArr.push(i.value);
+                });
+                let medianValue = median(tempArr);
+                ALL_PERF_METRICS.push({ metric, medianValue });
+              });
+            }
+          
+            // Test runner
+            function runLocalPerfTests(r = 5) {
+              let runCount = r;
+          
+              // Capture metrics for each test run
+              if (!localStorage.getItem("runs") || localStorage.getItem("runs") > 0) {
+                if (!localStorage.getItem("runs")) {
+                  localStorage.setItem("runs", runCount);
+                  console.log("Performance testing starting...");
+                }
+                let x = localStorage.getItem("runs");
+                console.log(`Test Run ${runCount - x + 1} of ${runCount}`);
+                x--;
+                localStorage.setItem("runs", x);
+          
+                storeMetrics();
+                storeVitals();
+                reload(2000);
+          
+                // Calculate medians and log metrics
+              } else if (localStorage.getItem("runs") == 0) {
+                console.log("Calculating medians of performance metrics...");
+                calculateMedianPerfMarks();
+                calculateMedianVitals();
+          
+                console.log(`============ Performance Metrics ============`);
+                console.log(`============(medians of ${runCount} tests)============`);
+                console.table(ALL_PERF_METRICS);
+                localStorage.clear(); // Clear local storage to clean up
+                console.log(`Performance testing complete.`);
+              }
+            }
+          
+            // Run the performance tests after the page load event
+            window.addEventListener("load", (event) => {
+              runLocalPerfTests(); // With 5 runs as default. Otherwise add an argument, e.g. 7.
+            });
+          </script>
 	</body>
 	
 </html>
