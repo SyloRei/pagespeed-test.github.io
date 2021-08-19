@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font5"],{"0650":function(n,t,o){"use strict";o("6301")},"3d06":function(n,t,o){"use strict";o.r(t);var c=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Didact Gothic font */ ")])},u=[],e=(o("0650"),o("2877")),i={},s=Object(e["a"])(i,c,u,!0,null,null,null);t["default"]=s.exports},6301:function(n,t,o){}}]);
-//# sourceMappingURL=font5.js.map

@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font17"],{"1c1d":function(n,t,c){"use strict";c("c4b8")},"2f48":function(n,t,c){"use strict";c.r(t);var e=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Merriweather font */ ")])},o=[],u=(c("1c1d"),c("2877")),r={},i=Object(u["a"])(r,e,o,!0,null,null,null);t["default"]=i.exports},c4b8:function(n,t,c){}}]);
-//# sourceMappingURL=font17.js.map

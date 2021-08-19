@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font30"],{"765f":function(n,t,c){},"76c6":function(n,t,c){"use strict";c("765f")},cd6d:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Prata font */ ")])},u=[],e=(c("76c6"),c("2877")),a={},f=Object(e["a"])(a,o,u,!0,null,null,null);t["default"]=f.exports}}]);
-//# sourceMappingURL=font30.js.map

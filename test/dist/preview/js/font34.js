@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font34"],{"1a62":function(n,t,o){"use strict";o("cda0")},a7a6:function(n,t,o){"use strict";o.r(t);var a=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Roboto font */ ")])},c=[],u=(o("1a62"),o("2877")),e={},s=Object(u["a"])(e,a,c,!0,null,null,null);t["default"]=s.exports},cda0:function(n,t,o){}}]);
-//# sourceMappingURL=font34.js.map

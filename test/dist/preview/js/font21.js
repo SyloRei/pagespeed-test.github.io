@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font21"],{1188:function(n,t,c){},"8dc5":function(n,t,c){"use strict";c("1188")},df25:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Old Standard TT font */ ")])},u=[],e=(c("8dc5"),c("2877")),a={},d=Object(e["a"])(a,o,u,!0,null,null,null);t["default"]=d.exports}}]);
-//# sourceMappingURL=font21.js.map

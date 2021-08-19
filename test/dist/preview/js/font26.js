@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font26"],{"4a7b":function(n,t,o){},"59fe":function(n,t,o){"use strict";o("4a7b")},c35c:function(n,t,o){"use strict";o.r(t);var c=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* PT Serif Caption font */ ")])},e=[],u=(o("59fe"),o("2877")),a={},f=Object(u["a"])(a,c,e,!0,null,null,null);t["default"]=f.exports}}]);
-//# sourceMappingURL=font26.js.map

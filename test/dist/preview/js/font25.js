@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font25"],{7995:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* PT Sans font */ ")])},u=[],e=(c("9b59"),c("2877")),s={},a=Object(e["a"])(s,o,u,!0,null,null,null);t["default"]=a.exports},"9b59":function(n,t,c){"use strict";c("c52c6")},c52c6:function(n,t,c){}}]);
-//# sourceMappingURL=font25.js.map

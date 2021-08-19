@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font38"],{"68e8":function(n,t,o){"use strict";o("b7af")},b7af:function(n,t,o){},be08:function(n,t,o){"use strict";o.r(t);var e=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Sora font */ ")])},u=[],c=(o("68e8"),o("2877")),a={},f=Object(c["a"])(a,e,u,!0,null,null,null);t["default"]=f.exports}}]);
-//# sourceMappingURL=font38.js.map

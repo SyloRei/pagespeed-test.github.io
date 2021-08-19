@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font44"],{a0fd:function(n,t,e){"use strict";e.r(t);var o=function(n,t){var e=t._c;return e("style",{tag:"component"},[t._v(" /* Yeseva One font */ ")])},u=[],a=(e("f927"),e("2877")),c={},f=Object(a["a"])(c,o,u,!0,null,null,null);t["default"]=f.exports},a3b7:function(n,t,e){},f927:function(n,t,e){"use strict";e("a3b7")}}]);
-//# sourceMappingURL=font44.js.map

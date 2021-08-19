@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font2"],{"21bf":function(n,t,e){"use strict";e.r(t);var o=function(n,t){var e=t._c;return e("style",{tag:"component"},[t._v(" /* Bitter font */ ")])},f=[],u=(e("bfdf"),e("2877")),c={},i=Object(u["a"])(c,o,f,!0,null,null,null);t["default"]=i.exports},"67e9":function(n,t,e){},bfdf:function(n,t,e){"use strict";e("67e9")}}]);
-//# sourceMappingURL=font2.js.map

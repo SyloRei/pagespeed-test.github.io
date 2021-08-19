@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font12"],{"861d":function(n,t,u){"use strict";u("a91c")},a91c:function(n,t,u){},f972:function(n,t,u){"use strict";u.r(t);var c=function(n,t){var u=t._c;return u("style",{tag:"component"},[t._v(" /* Inknut Antiqua font */ ")])},o=[],a=(u("861d"),u("2877")),e={},i=Object(a["a"])(e,c,o,!0,null,null,null);t["default"]=i.exports}}]);
-//# sourceMappingURL=font12.js.map

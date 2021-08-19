@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font14"],{"4ffa":function(n,t,o){"use strict";o("af82")},8547:function(n,t,o){"use strict";o.r(t);var f=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Krona One font */ ")])},a=[],u=(o("4ffa"),o("2877")),c={},e=Object(u["a"])(c,f,a,!0,null,null,null);t["default"]=e.exports},af82:function(n,t,o){}}]);
-//# sourceMappingURL=font14.js.map

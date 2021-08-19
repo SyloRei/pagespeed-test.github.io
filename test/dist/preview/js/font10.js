@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font10"],{"3a45":function(n,t,c){"use strict";c.r(t);var e=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* IBM Plex Sans font */ ")])},o=[],u=(c("ccfb"),c("2877")),s={},a=Object(u["a"])(s,e,o,!0,null,null,null);t["default"]=a.exports},"4e92":function(n,t,c){},ccfb:function(n,t,c){"use strict";c("4e92")}}]);
-//# sourceMappingURL=font10.js.map

@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font16"],{"06a4":function(n,t,o){},da0f:function(n,t,o){"use strict";o("06a4")},e90b:function(n,t,o){"use strict";o.r(t);var a=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Manrope font */ ")])},e=[],u=(o("da0f"),o("2877")),c={},f=Object(u["a"])(c,a,e,!0,null,null,null);t["default"]=f.exports}}]);
-//# sourceMappingURL=font16.js.map

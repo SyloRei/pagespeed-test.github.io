@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font3"],{5336:function(n,t,o){"use strict";o.r(t);var c=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Comfortaa font */ ")])},u=[],a=(o("f065"),o("2877")),e={},f=Object(a["a"])(e,c,u,!0,null,null,null);t["default"]=f.exports},a4c1:function(n,t,o){},f065:function(n,t,o){"use strict";o("a4c1")}}]);
-//# sourceMappingURL=font3.js.map

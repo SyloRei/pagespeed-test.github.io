@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font31"],{bb7f:function(n,t,c){},c2c0:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Questrial font */ ")])},u=[],e=(c("cf39"),c("2877")),f={},s=Object(e["a"])(f,o,u,!0,null,null,null);t["default"]=s.exports},cf39:function(n,t,c){"use strict";c("bb7f")}}]);
-//# sourceMappingURL=font31.js.map

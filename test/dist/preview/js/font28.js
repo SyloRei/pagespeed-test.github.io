@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font28"],{"444c":function(n,t,o){"use strict";o.r(t);var a=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Playfair Display font */ ")])},c=[],u=(o("7a94"),o("2877")),e={},i=Object(u["a"])(e,a,c,!0,null,null,null);t["default"]=i.exports},"7a94":function(n,t,o){"use strict";o("95bd")},"95bd":function(n,t,o){}}]);
-//# sourceMappingURL=font28.js.map

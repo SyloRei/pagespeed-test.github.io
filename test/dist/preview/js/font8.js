@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font8"],{"0897":function(n,t,o){},"13b0":function(n,t,o){"use strict";o("0897")},"33d6":function(n,t,o){"use strict";o.r(t);var u=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Fira Sans font */ ")])},c=[],e=(o("13b0"),o("2877")),s={},a=Object(e["a"])(s,u,c,!0,null,null,null);t["default"]=a.exports}}]);
-//# sourceMappingURL=font8.js.map

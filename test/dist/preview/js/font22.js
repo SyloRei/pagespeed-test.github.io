@@ -1,2 +1,1 @@
 (window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font22"],{"0c72":function(n,t,c){"use strict";c("a907")},a907:function(n,t,c){},d425:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Open Sans font */ ")])},u=[],e=(c("0c72"),c("2877")),a={},s=Object(e["a"])(a,o,u,!0,null,null,null);t["default"]=s.exports}}]);
-//# sourceMappingURL=font22.js.map
