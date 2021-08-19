@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font6"],{2242:function(n,t,o){"use strict";o("429a")},"429a":function(n,t,o){},a9ba:function(n,t,o){"use strict";o.r(t);var u=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Exo Two font */ ")])},a=[],c=(o("2242"),o("2877")),e={},s=Object(c["a"])(e,u,a,!0,null,null,null);t["default"]=s.exports}}]);
+//# sourceMappingURL=font6.js.map

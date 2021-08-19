@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font41"],{"436b":function(n,t,u){"use strict";u("5bdb")},"5bdb":function(n,t,u){},ebe3:function(n,t,u){"use strict";u.r(t);var o=function(n,t){var u=t._c;return u("style",{tag:"component"},[t._v(" /* Ubuntu font */ ")])},e=[],b=(u("436b"),u("2877")),c={},s=Object(b["a"])(c,o,e,!0,null,null,null);t["default"]=s.exports}}]);
+//# sourceMappingURL=font41.js.map

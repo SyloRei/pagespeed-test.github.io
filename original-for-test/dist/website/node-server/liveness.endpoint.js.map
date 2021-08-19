@@ -1,0 +1,1 @@
+{"version":3,"file":"liveness.endpoint.js","sourceRoot":"","sources":["../../../src/app/website/server/liveness.endpoint.ts"],"names":[],"mappings":";;AAEA,SAAwB,gBAAgB,CAAC,CAAU,EAAE,GAAa;IAChE,GAAG,CAAC,MAAM,CAAC,GAAG,CAAC,CAAC;IAChB,GAAG,CAAC,IAAI,CAAC,kBAAgB,IAAI,IAAI,EAAE,CAAC,OAAO,EAAI,CAAC,CAAC;IACjD,GAAG,CAAC,GAAG,EAAE,CAAC;AACZ,CAAC;AAJD,mCAIC"}

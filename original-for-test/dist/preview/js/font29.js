@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font29"],{"0d10":function(n,t,o){"use strict";o("9abe")},"82c4":function(n,t,o){"use strict";o.r(t);var c=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Poppins font */ ")])},e=[],u=(o("0d10"),o("2877")),s={},a=Object(u["a"])(s,c,e,!0,null,null,null);t["default"]=a.exports},"9abe":function(n,t,o){}}]);
+//# sourceMappingURL=font29.js.map
