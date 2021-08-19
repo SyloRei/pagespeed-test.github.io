@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font15"],{2027:function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Lora font */ ")])},a=[],u=(c("c3ca"),c("2877")),e={},f=Object(u["a"])(e,o,a,!0,null,null,null);t["default"]=f.exports},c3ca:function(n,t,c){"use strict";c("daf1")},daf1:function(n,t,c){}}]);
+//# sourceMappingURL=font15.js.map

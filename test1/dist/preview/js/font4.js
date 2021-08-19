@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font4"],{"3e9b":function(n,t,o){},"4bad":function(n,t,o){"use strict";o("3e9b")},cd95:function(n,t,o){"use strict";o.r(t);var a=function(n,t){var o=t._c;return o("style",{tag:"component"},[t._v(" /* Cormorant Garamond font */ ")])},c=[],e=(o("4bad"),o("2877")),u={},r=Object(e["a"])(u,a,c,!0,null,null,null);t["default"]=r.exports}}]);
+//# sourceMappingURL=font4.js.map

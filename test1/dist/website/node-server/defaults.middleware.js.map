@@ -1,0 +1,1 @@
+{"version":3,"file":"defaults.middleware.js","sourceRoot":"","sources":["../../../src/app/website/server/defaults.middleware.ts"],"names":[],"mappings":";;;AAAA,uDAAmC;AACnC,iDAA6B;AAE7B,IAAM,WAAW,GAAG,OAAO,CAAC,GAAG,CAAC,QAAQ,KAAK,aAAa,CAAC,CAAC,CAAC,qBAAqB,CAAC,CAAC,CAAC,cAAc,CAAC;AACpG,kBAAe,OAAO,CAAC,MAAM,CAAC,IAAI,CAAC,IAAI,CAAC,SAAS,EAAE,WAAW,CAAC,CAAC,CAAC"}

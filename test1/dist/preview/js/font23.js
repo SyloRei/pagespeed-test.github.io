@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["font23"],{"7ab4":function(n,t,c){"use strict";c.r(t);var o=function(n,t){var c=t._c;return c("style",{tag:"component"},[t._v(" /* Oswald font */ ")])},e=[],u=(c("8c3e"),c("2877")),s={},a=Object(u["a"])(s,o,e,!0,null,null,null);t["default"]=a.exports},"8c3e":function(n,t,c){"use strict";c("cdf6")},cdf6:function(n,t,c){}}]);
+//# sourceMappingURL=font23.js.map
