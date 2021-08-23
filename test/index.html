@@ -424,8 +424,10 @@
         head.appendChild(script);
       }
       window.onload = function () {
-        loadScript('/pagespeed-test.github.io/test/dist/website/js/chunk-vendors.js');
-        loadScript('/pagespeed-test.github.io/test/dist/website/js/instantsite.js');
+        setTimeout(() => {
+          loadScript('/pagespeed-test.github.io/test/dist/website/js/chunk-vendors.js');
+          loadScript('/pagespeed-test.github.io/test/dist/website/js/instantsite.js');
+        }, 500)
       }
     </script>
 	</body>
